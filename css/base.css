@@ -1,0 +1,53 @@
+
+		body, ul, h1, h2, h3, h4, h5, h6, p, dl, dd, input, form,ol{
+			margin: 0;
+			padding: 0;
+		}
+		li {
+			list-style: none;
+		}
+		img {
+			vertical-align: middle;
+			border: 0 none;
+		}
+		a {
+			text-decoration: none;
+			color: #050505;
+		}
+		/*a:hover {
+			color: #b81d00;
+		}*/
+		input {
+			outline: none;
+			border: 0 none;
+		}
+		em {
+			font-style: normal;
+		}
+		.w {
+			width: 1200px;
+			margin: 0 auto;
+		}
+		h1, h2, h3, h4, h5, h6 {
+			font-weight: 400;
+		}
+		body {
+			width: 100%;
+			font: 14px/1.5 arial, "microsoft yahei";
+		}
+		.fl {
+			float: left;
+		}
+		.fr {
+			float: right;
+		}
+		.clearfix:before, .clearfix:after {
+			content: "";
+			display: table;
+		}
+		.clearfix:after {
+			clear: both;
+		}
+		.clearfix {
+			*zoom: 1;
+		}

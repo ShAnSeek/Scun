@@ -1,0 +1,174 @@
+body,p,h1,h2,h3,h4,h5,h6,ul,ol,dl,li,dt,dd {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+
+	color: #000;
+	font-size: 14px;
+	font-family: "微软雅黑";
+}
+
+strong,em,i,s,a {
+	font-weight: 400;
+	font-style: normal;
+	text-decoration: none;
+	color: #000;
+}
+
+a:hover {
+	color: #ccc;
+}
+
+img,input {
+	border: 0 none;
+	outline-style: none;
+	padding: 0;
+	margin: 0;
+	vertical-align: middle;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+.clearfix:before, .clearfix:after {
+	content: "";
+	display: table;
+}
+.clearfix:after {
+	clear: both;
+}
+.clearfix {
+	*zoom: 1;
+}
+.w {
+	width: 1200px;
+	margin: 0 auto;
+}
+/* 字体图标 */
+@font-face {
+	font-family: 'iconfont';
+	src: url('../fonts/iconfont.eot');
+	src: url('../fonts/iconfont.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/iconfont.woff') format('woff'),
+	url('../fonts/.ttf') format('truetype'),
+	url('../fonts/iconfont.svg#iconfont') format('svg');
+  }
+  /* 以上是css基础样式设置 如自己有  可删除 注意调节.w的版心宽度 */
+  .footer-t {
+      background: #2a424c;
+  }
+  .footer-t .w {
+      height: 130px;
+      padding-top: 36px;
+  }
+  .footer-t dl {
+      text-align: center;
+    width: 206px;
+}
+  .footer-t dt {
+      font-size: 16px;
+      height: 36px;
+      color: #e9e8e5;
+  }
+  .footer-t dd {
+      height: 30px;
+      border-right: 1px solid #777;
+  }
+  .footer-t dd:last-child {
+      height: 20px;
+  }
+  .footer-t dd a {
+      font-size: 14px;
+      color: #e9e8e5;
+  }
+  .footer-t dd a:hover {
+      color: #f00008;
+  }
+.footer-icon {
+    width: 460px;
+    height: 100%;
+}
+.footer-icon .fl {
+    position: relative;
+    height: 76px;
+    width: 76px;
+    background-color: #3d657f;
+    margin-right: 50px;
+    text-align: center;
+    border-radius: 10px;
+}
+.footer-icon .fl span {
+    position: absolute;
+    display: block;
+    bottom: -30px;
+    width: 100%;
+    text-align: center;
+    color: #e9e8e5;
+}
+.footer-b {
+    height: 50px;
+    padding-top: 22px;
+    background: #132b36;
+    font-size: 12px;    
+}
+.footer-b i {
+    color: #496171;
+}
+.footer-b s {
+    color: #999;
+}
+.footer-b a {
+    color: #028dcc;
+}
+.footer .icon {
+    line-height: 76px;
+    font-size: 50px;
+    color: #fff;
+    font-family:"iconfont" !important;
+}
+.footer-icon .fl:nth-child(1):hover {
+    background-color: #028dcc;
+}
+.footer-icon .fl:nth-child(2):hover {
+    background-color: chartreuse;
+}
+.footer-icon .fl:nth-child(3):hover {
+    background-color: gold;
+}
+.footer .ewm {
+    position: absolute;
+    top: -170px;
+    left: 50%;
+    padding-top: 15px;
+    transform: translate(-50%);
+    height: 140px;
+    width: 180px;
+    background-color: #3d657f;
+    display: none;
+}
+.footer .ewm p {
+    color: #fff; 
+    font-size: 12px;
+}
+.footer .ewm i {
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translate(-50%);
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-top: 10px solid #3d657f;
+}
+.show {
+    display: block !important;
+}
